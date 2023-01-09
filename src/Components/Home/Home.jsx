@@ -1,16 +1,23 @@
 import React from "react";
 import Nav from "../Nav/Nav";
+import { Me, AboutMe, Title, Container } from "./HomeStyled";
 
 function Home() {
   return (
-    <div>
+    <Container>
       <Nav />
-      <h3>
-        Hola, soy Marcos Pla Señorans, tengo 20 años, me gradué en Soy Henry y
-        tengo muchas ganas de seguir aprendiendo y afrontar todos los retos que
-        se me presenten.
-      </h3>
-    </div>
+      <Me>
+        <Title>
+          <h2>Marcos Pla Señorans</h2>
+          <h3>Full Stack Developer</h3>
+        </Title>
+        <AboutMe>
+          Hola!, te cuento experiencia trabajando en NodeJs, React, Redux, SQL,
+          postgresSQL, mongoDb, Mongoose, Css, Html entre otras tecnologías del
+          sector.
+        </AboutMe>
+      </Me>
+    </Container>
   );
 }
 

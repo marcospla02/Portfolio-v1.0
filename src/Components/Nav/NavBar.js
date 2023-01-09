@@ -2,18 +2,28 @@ import styled from "styled-components";
 
 export const NavContainer = styled.nav`
   h2 {
-    color: white;
+    color: #205295;
     font-weight: 400;
+    padding-left: 25px;
   }
-  padding: 0.4rem;
-  background-color: #333;
+  padding: 0.5rem;
+  background-color: var(--light-grey);
   display: flex;
   align-items: center;
   justify-content: space-between;
   a {
-    color: white;
+    color: #205295;
     text-decoration: none;
     margin-right: 1rem;
+    padding: 0.5%;
+    transition: all 1s;
+    /* font-size: 1.5rem; */
+  }
+
+  a:hover {
+    background-color: #80808036;
+    transition: all 1s;
+    border-radius: 10px;
   }
 
   .links {
@@ -26,7 +36,7 @@ export const NavContainer = styled.nav`
     text-align: center;
     transition: all 0.5s ease;
     a {
-      color: white;
+      color: #205295;
       font-size: 2rem;
       display: block;
     }
@@ -34,8 +44,8 @@ export const NavContainer = styled.nav`
       position: initial;
       margin: 0;
       a {
-        font-size: 1rem;
-        color: white;
+        font-size: 1.5rem;
+        color: #205295;
         display: inline;
       }
       display: block;
@@ -55,7 +65,7 @@ export const NavContainer = styled.nav`
     a {
       font-size: 2rem;
       margin-top: 1rem;
-      color: white;
+      color: #000;
     }
   }
   .burguer {
@@ -66,7 +76,8 @@ export const NavContainer = styled.nav`
 `;
 
 export const BgDiv = styled.div`
-  background-color: #222;
+  /* background-color: #222; */
+  background-color: var(--light-blue);
   position: absolute;
   top: -1000px;
   left: -1000px;

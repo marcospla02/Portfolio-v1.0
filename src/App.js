@@ -3,9 +3,11 @@ import Home from "./Components/Home/Home";
 
 function App() {
   return (
-    <div className="App">
-      {/* <header className="App-header"></header> */}
-      <Home />
+    <div className="app">
+      <div className="bkg" />
+      <div className="container">
+        <Home />
+      </div>
     </div>
   );
 }

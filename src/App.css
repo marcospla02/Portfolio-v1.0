@@ -1,5 +1,31 @@
-.App {
+.app {
   text-align: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.container {
+  background-color: var(--light-blue);
+  width: 80vw;
+  height: 88vh;
+  margin: 5vh 10vw;
+  top: 0;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50vh 20vh;
+  border-radius: 10px;
+}
+
+.app {
+  background-image: url("./assests/img/gif1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 100vh;
+  /* border-radius: 1.5rem; */
 }
 
 .App-logo {
@@ -13,7 +39,7 @@
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,11 +48,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
-.App-link {
+/* .App-link {
   color: #61dafb;
-}
+} */
 
 @keyframes App-logo-spin {
   from {
