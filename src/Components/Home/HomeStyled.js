@@ -1,13 +1,5 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-  /* display: grid; */
-  /* grid-template-columns: 1fr; */
-  /* grid-template-rows: repeat(2, 1fr); */
-  /* grid-column-gap: 20px; */
-  /* grid-row-gap: 30px; */
-`;
-
 export const Me = styled.div`
   display: flex;
   background-color: var(--aliceblue);
@@ -46,11 +38,38 @@ export const AboutMe = styled.div`
   @media (max-width: 768px) {
     width: 100%;
     margin-left: 10%;
-    font-size: medium;
-    @media (max-width: 500px) {
+    font-size: small;
+    @media (max-width: 400px) {
       @media (min-width: 200px) {
-        font-size: small;
+        font-size: x-small;
       }
     }
   }
+`;
+
+export const MyPicture = styled.div`
+  margin-left: 650px;
+  position: absolute;
+  top: 25%;
+  right: 9%;
+  img {
+    border-radius: 100em;
+  }
+  @media (max-width: 1118px) {
+    top: 5000px;
+    img {
+      opacity: 0;
+      top: 5000;
+      background-color: blue;
+    }
+  }
+`;
+
+export const Icons = styled.div`
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
 `;

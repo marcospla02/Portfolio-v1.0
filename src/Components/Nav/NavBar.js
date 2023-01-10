@@ -17,13 +17,31 @@ export const NavContainer = styled.nav`
     margin-right: 1rem;
     padding: 0.5%;
     transition: all 1s;
-    /* font-size: 1.5rem; */
   }
 
   a:hover {
-    background-color: #80808036;
-    transition: all 1s;
-    border-radius: 10px;
+    /* background-color: #80808036; */
+    /* text-decoration: underline; */
+    display: inline-block;
+    position: relative;
+  }
+
+  a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.35s ease-out;
+  }
+
+  a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
   }
 
   .links {
@@ -34,7 +52,8 @@ export const NavContainer = styled.nav`
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    transition: all 0.5s ease;
+    /* transition: all 0.8s ease; */
+    transition: all 0.8s ease-in-out;
     a {
       color: #205295;
       font-size: 2rem;
@@ -43,6 +62,9 @@ export const NavContainer = styled.nav`
     @media (min-width: 768px) {
       position: initial;
       margin: 0;
+      margin-bottom: -25px;
+      /* margin-right: 25px; */
+      padding-right: 25px;
       a {
         font-size: 1.5rem;
         color: #205295;
@@ -53,15 +75,18 @@ export const NavContainer = styled.nav`
   }
 
   .links.active {
-    width: 100%;
     display: block;
     position: absolute;
     margin-left: auto;
     margin-right: auto;
-    top: 7.8%;
+    top: 4.8%;
     left: 0;
     right: 0;
+    background-color: #333;
     text-align: center;
+    height: 300px;
+    width: 80%;
+    border-bottom-right-radius: 250px;
     a {
       font-size: 2rem;
       margin-top: 1rem;
@@ -76,8 +101,8 @@ export const NavContainer = styled.nav`
 `;
 
 export const BgDiv = styled.div`
-  /* background-color: #222; */
-  background-color: var(--light-blue);
+  background-color: #222;
+  /* background-color: var(--light-blue); */
   position: absolute;
   top: -1000px;
   left: -1000px;
