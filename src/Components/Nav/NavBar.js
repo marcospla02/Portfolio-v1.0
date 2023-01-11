@@ -20,8 +20,6 @@ export const NavContainer = styled.nav`
   }
 
   a:hover {
-    /* background-color: #80808036; */
-    /* text-decoration: underline; */
     display: inline-block;
     position: relative;
   }
@@ -42,6 +40,10 @@ export const NavContainer = styled.nav`
   a:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
+  }
+
+  .invisible {
+    opacity: 0;
   }
 
   .links {
@@ -79,7 +81,8 @@ export const NavContainer = styled.nav`
     position: absolute;
     margin-left: auto;
     margin-right: auto;
-    top: 4.8%;
+    top: 14%;
+    /* top: 4.8%; */
     left: 0;
     right: 0;
     background-color: #333;

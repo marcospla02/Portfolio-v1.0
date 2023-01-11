@@ -66,10 +66,37 @@ export const MyPicture = styled.div`
 `;
 
 export const Icons = styled.div`
-  position: absolute;
+  position: fixed;
   bottom: 10%;
   left: 5%;
   display: flex;
-  justify-content: space-between;
   margin-right: 10px;
+  .div1 {
+    margin-right: 11px;
+  }
+
+  .div1:hover {
+    cursor: pointer;
+    margin-top: -3px;
+  }
+`;
+
+export const Cv = styled.div`
+  position: absolute;
+  left: 90%;
+  bottom: 10.4%;
+  @media (max-width: 700px) {
+    left: 80%;
+  }
+
+  p {
+    line-height: 0;
+  }
+
+  img:hover {
+    cursor: pointer;
+    position: static;
+    margin-top: -3px;
+    box-shadow: 4px 2px 2px rgba(0, 0, 0, 0.74);
+  }
 `;
