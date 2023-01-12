@@ -6,15 +6,13 @@ export const Container = styled.div`
   width: 450px;
   background-color: var(--aliceblue);
   border-radius: 10px;
+  margin-bottom: 10px;
+
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-
-  img {
-    margin-bottom: 55px;
-  }
 
   /*********************************/
   .flip-card {
@@ -49,6 +47,7 @@ export const Container = styled.div`
     display: grid;
     place-items: center;
     padding: 32px;
+    border-radius: 60px;
     transform: rotateY(180deg);
   }
 
@@ -85,10 +84,24 @@ export const Image = styled.div`
       margin-left: 2%;
     }
   }
-  @media screen and (max-width: 588px) and (min-width: 250px) {
+  @media screen and (max-width: 588px) and (min-width: 500px) {
     img {
-      margin-left: -34.5%;
+      margin-left: -12%;
+      width: 350px;
+      height: 180px;
+    }
+  }
+  @media screen and (max-width: 500px) and (min-width: 386px) {
+    img {
+      margin-left: -31%;
       width: 250px;
+      height: 180px;
+    }
+  }
+  @media screen and (max-width: 386px) and (min-width: 250px) {
+    img {
+      margin-left: -40%;
+      width: 200px;
       height: 180px;
     }
   }

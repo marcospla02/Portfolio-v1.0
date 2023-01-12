@@ -18,12 +18,10 @@ export const NavContainer = styled.nav`
     padding: 0.5%;
     transition: all 1s;
   }
-
   a:hover {
     display: inline-block;
     position: relative;
   }
-
   a::after {
     content: "";
     position: absolute;
@@ -36,16 +34,13 @@ export const NavContainer = styled.nav`
     transform-origin: bottom right;
     transition: transform 0.35s ease-out;
   }
-
   a:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
   }
-
   .invisible {
     opacity: 0;
   }
-
   .links {
     position: absolute;
     top: -700px;
@@ -75,7 +70,6 @@ export const NavContainer = styled.nav`
       display: block;
     }
   }
-
   .links.active {
     display: block;
     position: absolute;
@@ -85,15 +79,15 @@ export const NavContainer = styled.nav`
     /* top: 4.8%; */
     left: 0;
     right: 0;
-    background-color: #333;
+    background-color: #000;
     text-align: center;
     height: 300px;
-    width: 80%;
+    width: 100%;
     border-bottom-right-radius: 250px;
     a {
       font-size: 2rem;
       margin-top: 1rem;
-      color: #000;
+      color: white;
     }
   }
   .burguer {
@@ -113,7 +107,6 @@ export const BgDiv = styled.div`
   height: 100%;
   z-index: -1;
   transition: all 0.6s ease;
-
   &.active {
     border-radius: 0 0 90% 0;
     transition: all 0.7s ease;

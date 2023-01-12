@@ -15,7 +15,7 @@ export const Me = styled.div`
   }
   h3 {
     margin-top: -23px;
-    margin-left: -20%;
+    margin-left: -2%;
     color: #a8a8a8;
   }
 
@@ -35,6 +35,9 @@ export const AboutMe = styled.div`
   height: 50%;
   margin-top: 19%;
   margin-left: -50%;
+  @media (max-width: 1112px) and (min-width: 900px) {
+    margin-top: 100px;
+  }
   @media (max-width: 768px) {
     width: 100%;
     margin-left: 10%;
