@@ -49,8 +49,8 @@ function Contact() {
     ) {
       emailjs
         .sendForm(
-          REACT_APP_SERVICE,
-          REACT_APP_TEMPLATE,
+          "service_3mtzokk",
+          "template_poqr2sk",
           e.target,
           "jNKuofmtacmWHmdE5"
         )
