@@ -52,7 +52,7 @@ function Contact() {
           REACT_APP_SERVICE,
           REACT_APP_TEMPLATE,
           e.target,
-          REACT_APP_API
+          "jNKuofmtacmWHmdE5"
         )
         .then(() =>
           Swal.fire({
