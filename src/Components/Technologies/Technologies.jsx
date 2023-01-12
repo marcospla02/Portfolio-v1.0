@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Nav from "../Nav/Nav";
-import { Text, Technology, All, Links } from "./Tech";
+import { Text, Technology, All, Links, Fragment } from "./Tech";
 import css from "../../assests/img/css3.png";
 import html from "../../assests/img/html.png";
 import express from "../../assests/img/express.js.png";
@@ -12,18 +12,31 @@ import redux from "../../assests/img/redux.png";
 import sequelize from "../../assests/img/sequelize.png";
 import mongodb from "../../assests/img/mongodb.png";
 import certificate from "../../assests/img/certificate.png";
+import certificatePicture from "../../assests/img/Certificado.jpg";
+import recomendation from "../../assests/img/recomendation.jpg";
 import Certificates from "./Certificates/Certificates";
+import like from "../../assests/img/like.png";
 
 function Technologies() {
   const [state, setState] = useState(false);
+  const [state2, setState2] = useState(false);
 
   let modal;
 
-  const showPicture = (e) => {
+  const showPicture = () => {
     setState(true);
   };
 
-  if (state) modal = <Certificates close={setState} />;
+  if (state)
+    modal = <Certificates close={setState} info={certificatePicture} />;
+
+  let modal2;
+
+  const showPicture2 = () => {
+    setState2(true);
+  };
+
+  if (state2) modal2 = <Certificates close={setState2} info={recomendation} />;
 
   return (
     <All>
@@ -45,10 +58,18 @@ function Technologies() {
           </footer>
         </article>
       </Text>
+      <Fragment>
+        <span>Certificate:</span>
+      </Fragment>
       <Links>
         <button onClick={showPicture}>
           <img src={certificate} alt="certificate" width="50px" />
         </button>
+        <div className="img2">
+          <button onClick={showPicture2}>
+            <img src={like} alt="recomendation" width="50px" />
+          </button>
+        </div>
       </Links>
       <Technology>
         <img src={js} alt="javascript" width="70px" />
@@ -63,6 +84,7 @@ function Technologies() {
         <img src={mongodb} alt="mongodb" width="70px" />
       </Technology>
       <div>{modal}</div>
+      <div>{modal2}</div>
     </All>
   );
 }

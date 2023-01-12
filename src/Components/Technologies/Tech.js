@@ -22,7 +22,7 @@ export const Technology = styled.div`
 
 export const Links = styled.div`
   position: absolute;
-  left: 3%;
+  left: 1%;
   top: 88%;
   padding: 2px 2px;
 
@@ -35,36 +35,16 @@ export const Links = styled.div`
     margin-top: -3px;
     cursor: pointer;
   }
+
+  .img2 {
+    position: absolute;
+    top: 0;
+    left: 100%;
+  }
 `;
 
-/************************************************/
-// export const Lenguaje = styled.div`
-//   position: absolute;
-//   left: 70%;
-//   top: 55%;
-//   .lenguaje {
-//     position: absolute;
-//     top: -50%;
-//   }
-// `;
-
-// export const Front = styled.div`
-//   position: fixed;
-//   margin-bottom: 5%;
-//   left: 10%;
-//   top: 55%;
-//   .front {
-//     position: absolute;
-//     top: -52%;
-//   }
-// `;
-
-// export const Back = styled.div`
-//   position: fixed;
-//   right: 60%;
-//   top: 75%;
-//   .back {
-//     position: absolute;
-//     top: -35%;
-//   }
-// `;
+export const Fragment = styled.div`
+  position: absolute;
+  bottom: 12%;
+  left: 2.5%;
+`;
