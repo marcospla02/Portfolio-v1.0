@@ -8,6 +8,12 @@ export const Button = styled.button`
   padding: 1em 3em;
   text-align: center;
   margin-left: -26%;
+  .disabled {
+    /* color: rgba(19, 1, 1, 0.3); */
+    color: green;
+    /* background-color: rgba(19, 1, 1, 0.3); */
+    background-color: blue;
+  }
 `;
 
 export const Name = styled.div`
@@ -94,8 +100,8 @@ export const Message = styled.div`
     color: red;
     font-size: 15px;
     line-height: 0;
-    margin-bottom: 2%;
-    margin-left: 2%;
+    margin-top: -0%;
+    margin-left: -20%;
   }
 
   textarea.danger {

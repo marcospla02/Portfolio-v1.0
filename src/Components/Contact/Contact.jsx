@@ -69,9 +69,14 @@ function Contact() {
             timer: 1500,
           })
         );
+      setInput({ name: "", email: "", message: "" });
+    } else {
+      Swal.fire({
+        icon: "error",
+        text: "Please complete the fields",
+        timer: 1500,
+      });
     }
-
-    setInput({ name: "", email: "", message: "" });
   };
 
   return (
@@ -117,7 +122,11 @@ function Contact() {
           <br />
           {error.message && <p className="danger">{error.message}</p>}
         </Message>
-        <Button type="sumbit" disabled={disabled}>
+        <Button
+          type="sumbit"
+          disabled={disabled}
+          className={disabled ? "disabled" : ""}
+        >
           Send
         </Button>
       </form>
