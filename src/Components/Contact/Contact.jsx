@@ -54,14 +54,23 @@ function Contact() {
           e.target,
           REACT_APP_API
         )
-        .then(() => console.log("todo perfecto"))
-        .catch(() => console.log("todo mal"));
+        .then(() =>
+          Swal.fire({
+            text: "Thank you the mail was send",
+            icon: "success",
+            timer: 1500,
+          })
+        )
+        .catch((err) =>
+          Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Something went wrong!",
+            timer: 1500,
+          })
+        );
     }
-    Swal.fire({
-      text: "Thank you the mail was send",
-      icon: "success",
-      timer: 1500,
-    });
+
     setInput({ name: "", email: "", message: "" });
   };
 
