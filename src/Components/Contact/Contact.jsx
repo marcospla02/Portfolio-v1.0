@@ -102,7 +102,7 @@ function Contact() {
             type="text"
             name="email"
             value={input.email}
-            placeholder="pepe@gamil.com"
+            placeholder="marcos@gmail.com"
             onChange={handleInput}
             className={error.email && "danger"}
           />
