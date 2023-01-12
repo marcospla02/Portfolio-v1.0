@@ -8,7 +8,7 @@ const PorjectsInfo = [
     link: "https://tigercoffee.vercel.app/",
     image: tigerPicture,
     description:
-      "Poject created groupally (6 people whith me) in the stage of the project group of Henry. It`s a e-commerce of coffe that you can buy in any place of world",
+      "Poject created groupally (6 people including me) in the stage of the group project of Henry. It`s a e-commerce of coffe that you can buy in any place of the world",
   },
   {
     id: 2,
