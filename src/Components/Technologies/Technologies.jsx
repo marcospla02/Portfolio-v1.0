@@ -51,10 +51,9 @@ function Technologies() {
             experiences, with adaptability, problem solving and teamwork. I
             value constructive criticism in order to continue growing as a
             professional.
-            <br />I seek to develop myself professionally within a team or
-            individually, giving my best team or individually, giving the best
-            of me, with a very good predisposition and attitude towards the
-            attitude towards the responsibilities assigned to me.
+            <br />I seek to develop professionally within a team or
+            individually, giving the best of me, with very good predisposition
+            and attitude towards the responsibilities assigned to me.
           </footer>
         </article>
       </Text>
