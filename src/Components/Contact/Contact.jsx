@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Nav from "../Nav/Nav";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import validate from "./functions";
 import { Button, Email, Message, Name, Text } from "./ContactCss";
 import Swal from "sweetalert2";
@@ -61,7 +61,7 @@ function Contact() {
             timer: 1500,
           })
         )
-        .catch((err) =>
+        .catch(() =>
           Swal.fire({
             icon: "error",
             title: "Oops...",
