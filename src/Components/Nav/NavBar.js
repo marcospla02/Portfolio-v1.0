@@ -75,13 +75,13 @@ export const NavContainer = styled.nav`
     position: absolute;
     margin-left: auto;
     margin-right: auto;
-    top: 14%;
+    top: 13%;
     /* top: 4.8%; */
     left: 0;
     right: 0;
     background-color: #000;
     text-align: center;
-    height: 300px;
+    height: 350px;
     width: 100%;
     border-bottom-right-radius: 250px;
     a {
@@ -98,7 +98,7 @@ export const NavContainer = styled.nav`
 `;
 
 export const BgDiv = styled.div`
-  background-color: #222;
+  /* background-color: #222; */
   /* background-color: var(--light-blue); */
   position: absolute;
   top: -1000px;
