@@ -14,8 +14,8 @@ export const Container = styled.div`
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 
-  p {
-    margin-left: -50%;
+  a {
+    margin-bottom: 50px;
   }
 
   /*********************************/
