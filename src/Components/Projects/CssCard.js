@@ -32,7 +32,7 @@ export const Container = styled.div`
     height: 100%;
     /* height: 0%; */
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-    border-radius: 28px;
+    /* border-radius: 28px; */
     transition: all 550ms cubic-bezier(0.1, 0.22, 0.8, 1.13);
     transform-style: preserve-3d;
   }
