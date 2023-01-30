@@ -14,6 +14,10 @@ export const Container = styled.div`
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 
+  p {
+    margin-left: 10px;
+  }
+
   /*********************************/
   .flip-card {
     /* width: 450px; */
