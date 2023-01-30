@@ -84,6 +84,7 @@ export const NavContainer = styled.nav`
     height: 350px;
     width: 100%;
     border-bottom-right-radius: 250px;
+    z-index: 99;
     a {
       font-size: 2rem;
       margin-top: 1rem;
