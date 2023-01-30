@@ -16,7 +16,8 @@ export const Container = styled.div`
 
   /*********************************/
   .flip-card {
-    width: 450px;
+    /* width: 450px; */
+    width: 45px;
     height: 255px;
     perspective: 2000px;
   }
@@ -80,28 +81,29 @@ export const Image = styled.div`
   }
   @media screen and (max-width: 640px) and (min-width: 588px) {
     img {
-      width: 100%;
+      width: 420px;
+      /* width: 100%; */
       height: 100%;
       margin-left: 2%;
     }
   }
   @media screen and (max-width: 588px) and (min-width: 500px) {
     img {
-      margin-left: -12%;
+      margin-left: 12%;
       width: 350px;
       height: 180px;
     }
   }
   @media screen and (max-width: 500px) and (min-width: 386px) {
     img {
-      margin-left: -31%;
+      margin-left: 31%;
       width: 250px;
       height: 180px;
     }
   }
   @media screen and (max-width: 386px) and (min-width: 250px) {
     img {
-      margin-left: -40%;
+      margin-left: 50%;
       width: 200px;
       height: 180px;
     }
