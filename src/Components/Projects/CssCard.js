@@ -15,13 +15,13 @@ export const Container = styled.div`
   grid-row-gap: 0px;
 
   p {
-    margin-left: 10px;
+    margin-left: -50%;
   }
 
   /*********************************/
   .flip-card {
-    /* width: 450px; */
-    width: 45px;
+    width: 450px;
+    /* width: 45px; */
     height: 255px;
     perspective: 2000px;
   }
@@ -29,8 +29,8 @@ export const Container = styled.div`
   .flip-card-inner {
     position: relative;
     width: 100%;
-    /* height: 100%; */
-    height: 0%;
+    height: 100%;
+    /* height: 0%; */
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     border-radius: 28px;
     transition: all 550ms cubic-bezier(0.1, 0.22, 0.8, 1.13);
@@ -55,6 +55,8 @@ export const Container = styled.div`
     padding: 32px;
     border-radius: 60px;
     transform: rotateY(180deg);
+    /* width: 400px;
+    right: -10px; */
   }
 
   .flip-card:hover .flip-card-inner {
@@ -93,21 +95,21 @@ export const Image = styled.div`
   }
   @media screen and (max-width: 588px) and (min-width: 500px) {
     img {
-      margin-left: 12%;
+      margin-left: -12%;
       width: 350px;
       height: 180px;
     }
   }
   @media screen and (max-width: 500px) and (min-width: 386px) {
     img {
-      margin-left: 31%;
+      margin-left: -31%;
       width: 250px;
       height: 180px;
     }
   }
   @media screen and (max-width: 386px) and (min-width: 250px) {
     img {
-      margin-left: 50%;
+      margin-left: -50%;
       width: 200px;
       height: 180px;
     }
