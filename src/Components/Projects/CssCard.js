@@ -18,6 +18,12 @@ export const Container = styled.div`
     margin-bottom: 50px;
   }
 
+  @media (min-width: 300px) and (max-width: 386px) {
+    p {
+      margin-right: 10%;
+    }
+  }
+
   /*********************************/
   .flip-card {
     width: 450px;
@@ -112,6 +118,13 @@ export const Image = styled.div`
       margin-left: -50%;
       width: 200px;
       height: 180px;
+    }
+  }
+
+  @media (min-width: 300px) and (max-width: 386px) {
+    img {
+      width: 230px;
+      margin-right: -10%;
     }
   }
 `;
