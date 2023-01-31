@@ -83,7 +83,7 @@ function Contact() {
     <div>
       <Nav />
       <form onSubmit={handleSubmit}>
-        <Text>If you want put in contact with me!</Text>
+        <Text>Put in contact with me!</Text>
         <Name>
           <label htmlFor="name">Name</label>
           <input
