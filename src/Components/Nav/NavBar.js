@@ -38,6 +38,7 @@ export const NavContainer = styled.nav`
     transform: scaleX(1);
     transform-origin: bottom left;
   }
+
   .invisible {
     opacity: 0;
   }
