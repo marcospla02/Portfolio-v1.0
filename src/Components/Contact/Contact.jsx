@@ -4,7 +4,6 @@ import emailjs from "@emailjs/browser";
 import validate from "./functions";
 import { Button, Email, Message, Name, Text } from "./ContactCss";
 import Swal from "sweetalert2";
-const { REACT_APP_API, REACT_APP_SERVICE, REACT_APP_TEMPLATE } = process.env;
 
 function Contact() {
   const [input, setInput] = useState({
