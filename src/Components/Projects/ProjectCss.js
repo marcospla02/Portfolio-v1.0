@@ -12,5 +12,14 @@ export const Card = styled.div`
 
 export const Container = styled.div`
   overflow-y: scroll;
-  height: 100vh;
+  height: 88vh;
+
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--aliceblue);
+    border-radius: 12px;
+  }
 `;

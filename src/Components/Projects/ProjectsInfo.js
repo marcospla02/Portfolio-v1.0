@@ -1,5 +1,6 @@
 import videogameApp from "../../assests/img/videogameApp.jpg";
 import tigerPicture from "../../assests/img/tigerPicture.jpg";
+import coding from "../../assests/img/codeando.jpeg";
 
 const PorjectsInfo = [
   {
@@ -17,6 +18,13 @@ const PorjectsInfo = [
     image: videogameApp,
     description:
       "It`s my first app that I created in the stage of project individual in Henry. the technologies that I use is: React, redux,nodejs, javascript, express, postrgreSql and sequelize",
+  },
+  {
+    id: 3,
+    title: "Cooming soon",
+    link: "",
+    image: coding,
+    description: "In progress",
   },
 ];
 
