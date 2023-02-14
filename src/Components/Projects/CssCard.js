@@ -90,6 +90,9 @@ export const Container = styled.div`
 export const Image = styled.div`
   img {
     max-width: 450px;
+    /*     max-width: 450px;
+    margin-left: 5px;
+    height: 200px; */
   }
   @media screen and (max-width: 640px) and (min-width: 588px) {
     img {

@@ -56,7 +56,12 @@ export const MyPicture = styled.div`
   top: 25%;
   right: 9%;
   img {
-    border-radius: 100em;
+    /* border-radius: 100em; */
+    box-shadow: 8px 4px 4px rgba(0, 0, 0, 0.74);
+    border: 5px;
+    border-top-left-radius: 250px;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 350px;
   }
   @media (max-width: 1118px) {
     top: 5000px;
