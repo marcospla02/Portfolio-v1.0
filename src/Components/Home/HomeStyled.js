@@ -60,6 +60,7 @@ export const MyPicture = styled.div`
     box-shadow: 8px 4px 4px rgba(0, 0, 0, 0.74);
     border: 5px;
     border-top-left-radius: 250px;
+    border-top-right-radius: 10px;
     border-bottom-left-radius: 150px;
     border-bottom-right-radius: 350px;
   }
