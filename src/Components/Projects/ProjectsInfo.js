@@ -17,7 +17,7 @@ const PorjectsInfo = [
     link: "https://videogame-app-xi.vercel.app/",
     image: videogameApp,
     description:
-      "It`s my first app that I created in the stage of project individual in Henry. the technologies that I use is: React, redux,nodejs, javascript, express, postrgreSql and sequelize",
+      "It`s my first app that I created in the stage of individual project in Henry. the technologies that I use is: React, redux,nodejs, javascript, express, postrgreSql and sequelize",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const PorjectsInfo = [
     link: "",
     image: coding,
     description:
-      "In progress, with technologies like: Typescript, Nextjs, Tailwind. ",
+      "In progress, with technologies like: Typescript, Nextjs, Tailwind.  ",
   },
 ];
 
