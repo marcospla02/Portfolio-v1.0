@@ -24,7 +24,8 @@ const PorjectsInfo = [
     title: "Cooming soon",
     link: "",
     image: coding,
-    description: "In progress",
+    description:
+      "In progress, with technologies like: Typescript, Nextjs, Tailwind. ",
   },
 ];
 
