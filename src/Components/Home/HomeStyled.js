@@ -57,6 +57,7 @@ export const MyPicture = styled.div`
   right: 9%;
   img {
     /* border-radius: 100em; */
+    filter: brightness(140%);
     box-shadow: 8px 4px 4px rgba(0, 0, 0, 0.74);
     border: 5px;
     border-top-left-radius: 250px;
