@@ -67,7 +67,7 @@ function Home() {
         </div>
       </Icons>
       <Cv>
-        <p>My Cv</p>
+        <p>Resume</p>
         <a href={cvEnglish} download="Marcos-pla-señorans-cv">
           <img src={imgCv} alt="img of cv" width="40px" />
         </a>

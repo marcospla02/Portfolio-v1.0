@@ -19,7 +19,7 @@ function NavBar() {
             Home
           </a>
           <a href="/Me" onClick={handleClick}>
-            Me
+            About Me
           </a>
           <a href="/Projects" onClick={handleClick}>
             Projects
