@@ -13,7 +13,7 @@ function App() {
       {/* <div className="bkg" /> */}
       <div className="container" data-aos="flip-left" data-aos-duration="1500">
         <Route exact path="/" component={Home} />
-        <Route exact path="/Me" component={Technologies} />
+        <Route exact path="/About-Me" component={Technologies} />
         <Route exact path="/Projects" component={Projects} />
         <Route exact path="/Contact" component={Contact} />
       </div>
