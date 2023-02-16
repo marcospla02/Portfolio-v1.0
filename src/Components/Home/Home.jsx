@@ -33,7 +33,11 @@ function Home() {
       </MyPicture>
       <Icons>
         <div className="div1">
-          <a href="https://github.com/marcospla02" title="github">
+          <a
+            href="https://github.com/marcospla02"
+            title="github"
+            target="_blank"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 576 512"
@@ -44,7 +48,11 @@ function Home() {
           </a>
         </div>
         <div className="div1">
-          <a href="https://www.linkedin.com/in/marcos-pla/" title="linkedin">
+          <a
+            href="https://www.linkedin.com/in/marcos-pla/"
+            title="linkedin"
+            target="_blank"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 576 512"
