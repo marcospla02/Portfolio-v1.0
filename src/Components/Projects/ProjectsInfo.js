@@ -21,11 +21,11 @@ const PorjectsInfo = [
   },
   {
     id: 3,
-    title: "Cooming soon",
+    title: "PokemonApp",
     link: "",
     image: coding,
     description:
-      "In progress, with technologies like: Typescript, Nextjs, Tailwind.  ",
+      "In progress, with technologies like: Typescript, Reactjs, PostgreSqlS.  ",
   },
 ];
 
