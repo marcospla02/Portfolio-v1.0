@@ -25,7 +25,7 @@ const PorjectsInfo = [
     link: "",
     image: coding,
     description:
-      "In progress, with technologies like: Typescript, Reactjs, PostgreSqlS.  ",
+      "In progress, with technologies like: Typescript, Reactjs, PostgreSql, MaterialUI.  ",
   },
 ];
 
