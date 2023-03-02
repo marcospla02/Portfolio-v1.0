@@ -11,6 +11,8 @@ import reactIcon from "../../assests/img/react.png";
 import redux from "../../assests/img/redux.png";
 import sequelize from "../../assests/img/sequelize.png";
 import mongodb from "../../assests/img/mongodb.png";
+import typescript from "../../assests/img/typescript.png";
+import materialUi from "../../assests/img/material-ui.png";
 import certificate from "../../assests/img/certificate.png";
 import certificatePicture from "../../assests/img/Certificado.jpg";
 import recomendation from "../../assests/img/recomendation.jpg";
@@ -81,6 +83,8 @@ function Technologies() {
         <img src={postrgeSql} alt="postgres" width="70px" />
         <img src={sequelize} alt="sequlize" width="70px" />
         <img src={mongodb} alt="mongodb" width="70px" />
+        <img src={typescript} alt="mongodb" width="70px" />
+        <img src={materialUi} alt="mongodb" width="70px" />
       </Technology>
       <div>{modal}</div>
       <div>{modal2}</div>
