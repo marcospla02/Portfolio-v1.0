@@ -1,5 +1,6 @@
 import videogameApp from "../../assests/img/videogameApp.jpg";
 import tigerPicture from "../../assests/img/tigerPicture.jpg";
+import pokemonApp from "../../assests/img/pokemonApp.jpg";
 import coding from "../../assests/img/codeando.jpeg";
 
 const PorjectsInfo = [
@@ -23,9 +24,9 @@ const PorjectsInfo = [
     id: 3,
     title: "PokemonApp",
     link: "",
-    image: coding,
+    image: pokemonApp,
     description:
-      "In progress, with technologies like: Typescript, Reactjs, PostgreSql, MaterialUI.  ",
+      "In progress, with technologies like: Typescript, Reactjs, PostgreSql, Material UI, Redux Toolkit. This is a preview of the design, there are still some things to be added. ",
   },
 ];
 
