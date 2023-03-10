@@ -1,6 +1,7 @@
 import videogameApp from "../../assests/img/videogameApp.jpg";
 import tigerPicture from "../../assests/img/tigerPicture.jpg";
 import pokemonApp from "../../assests/img/pokemonApp.jpg";
+import portada from "../../assests/img/portada.png";
 import coding from "../../assests/img/codeando.jpeg";
 
 const PorjectsInfo = [
@@ -23,10 +24,12 @@ const PorjectsInfo = [
   {
     id: 3,
     title: "PokemonApp",
-    link: "",
-    image: pokemonApp,
-    description:
-      "In progress, with technologies like: Typescript, Reactjs, PostgreSql, Material UI, Redux Toolkit. This is a preview of the design, there are still some things to be added. ",
+    link: "https://github.com/marcospla02/PokemonApp",
+    image: portada,
+    description: `Project realized to practice new technologies and keep growing!
+      In the page you can add to favorites (logged in or not) and log in, if you had favorites in your account they will be loaded together with the new ones you added. 
+      You can search the Pokemon by name and soon there will be filtered. 
+    `,
   },
 ];
 
