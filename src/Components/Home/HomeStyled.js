@@ -57,7 +57,7 @@ export const MyPicture = styled.div`
   right: 9%;
   img {
     filter: brightness(140%);
-    width: 230px;
+    width: 240px;
     height: 230px;
     border-radius: 150px;
     border: 5px;
