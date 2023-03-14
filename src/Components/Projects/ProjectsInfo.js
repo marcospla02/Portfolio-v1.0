@@ -1,8 +1,7 @@
-import videogameApp from "../../assests/img/videogameApp.jpg";
+import portada from "../../assests/img/laptop-portada.png";
 import tigerPicture from "../../assests/img/tigerPicture.jpg";
-import pokemonApp from "../../assests/img/pokemonApp.jpg";
-import portada from "../../assests/img/portada.png";
-import coding from "../../assests/img/codeando.jpeg";
+import videogameApp from "../../assests/img/videogameApp.jpg";
+import plaremove from "../../assests/img/plaremove.png";
 
 const PorjectsInfo = [
   {
@@ -15,14 +14,6 @@ const PorjectsInfo = [
   },
   {
     id: 2,
-    title: "VideogamesApp",
-    link: "https://videogame-app-xi.vercel.app/",
-    image: videogameApp,
-    description:
-      "It`s my first app that I created in the stage of individual project in Henry. the technologies that I use is: React, redux,nodejs, javascript, express, postrgreSql and sequelize",
-  },
-  {
-    id: 3,
     title: "PokemonApp",
     link: "https://github.com/marcospla02/PokemonApp",
     image: portada,
@@ -30,6 +21,22 @@ const PorjectsInfo = [
       In the page you can add to favorites (logged in or not) and log in, if you had favorites in your account they will be loaded together with the new ones you added. 
       You can search the Pokemon by name and soon there will be filtered. 
     `,
+  },
+  {
+    id: 3,
+    title: "Plaremove.bg",
+    link: "https://plaremove-bg.vercel.app/",
+    image: plaremove,
+    description: `This project is to remove the backgrounds of the images, I made it with Svelte, TailwindCss and Typescript.
+    `,
+  },
+  {
+    id: 4,
+    title: "VideogamesApp",
+    link: "https://videogame-app-xi.vercel.app/",
+    image: videogameApp,
+    description:
+      "It`s my first app that I created in the stage of individual project in Henry. the technologies that I use is: React, redux,nodejs, javascript, express, postrgreSql and sequelize",
   },
 ];
 
