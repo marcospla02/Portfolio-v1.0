@@ -61,6 +61,7 @@ export const MyPicture = styled.div`
     height: 230px;
     border-radius: 150px;
     border: 5px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
   }
   @media (max-width: 1118px) {
     top: 5000px;

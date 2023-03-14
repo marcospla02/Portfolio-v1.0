@@ -24,7 +24,7 @@ function Home() {
       </Me>
       <MyPicture>
         <img
-          src={Picture}
+          src="https://res.cloudinary.com/marcos02/image/upload/e_background_removal/picture2_amyjoi?_a=ATFGlAA0"
           alt="my cv"
           width="250px"
           data-aos="flip-down"
