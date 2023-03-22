@@ -1,8 +1,9 @@
 import React from "react";
 import Nav from "../Nav/Nav";
 import { Me, AboutMe, Title, MyPicture, Icons, Cv } from "./HomeStyled";
-import Picture from "../../assests/img/picture2.jpg";
-import cvEnglish from "../../assests/Resume-Marcos Pla Señorans.pdf";
+// import Picture from "../../assests/img/picture2.jpg";
+import Picture from "../../assests/img/sinfondo-remove.png";
+import cvEnglish from "../../assests/Resume-Marcos-Pla-Señorans.pdf";
 import imgCv from "../../assests/img/cv.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -24,7 +25,8 @@ function Home() {
       </Me>
       <MyPicture>
         <img
-          src="https://res.cloudinary.com/marcos02/image/upload/e_background_removal/picture2_amyjoi?_a=ATFGlAA0"
+          // src="https://res.cloudinary.com/marcos02/image/upload/e_background_removal/picture2_amyjoi?_a=ATFGlAA0"
+          src={Picture}
           alt="my cv"
           width="250px"
           data-aos="flip-down"

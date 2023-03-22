@@ -55,11 +55,12 @@ function Contact() {
         )
         .then(() =>
           Swal.fire({
-            text: "Thank you the mail was send",
+            text: "Thank you the email has been sent",
             icon: "success",
-            timer: 1500,
+            timer: 2500,
           })
         )
+        .then(() => setInput({ name: "", email: "", message: "" }))
         .catch(() =>
           Swal.fire({
             icon: "error",
@@ -68,7 +69,6 @@ function Contact() {
             timer: 1500,
           })
         );
-      setInput({ name: "", email: "", message: "" });
     } else {
       Swal.fire({
         icon: "error",

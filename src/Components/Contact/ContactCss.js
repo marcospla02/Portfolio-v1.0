@@ -8,11 +8,17 @@ export const Button = styled.button`
   padding: 1em 3em;
   text-align: center;
   margin-left: -26%;
+  transition: 1s;
   .disabled {
-    /* color: rgba(19, 1, 1, 0.3); */
     color: green;
     /* background-color: rgba(19, 1, 1, 0.3); */
     background-color: blue;
+  }
+
+  :hover {
+    transition: 1s;
+    background-color: #005f3f;
+    color: #fff;
   }
 `;
 
