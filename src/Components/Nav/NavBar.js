@@ -6,11 +6,13 @@ export const NavContainer = styled.nav`
     font-weight: 400;
     padding-left: 25px;
   }
+
   padding: 0.5rem;
   background-color: var(--light-grey);
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   a {
     color: #205295;
     text-decoration: none;
@@ -18,10 +20,12 @@ export const NavContainer = styled.nav`
     padding: 0.5%;
     transition: all 1s;
   }
+
   a:hover {
     display: inline-block;
     position: relative;
   }
+
   a::after {
     content: "";
     position: absolute;
@@ -34,14 +38,21 @@ export const NavContainer = styled.nav`
     transform-origin: bottom right;
     transition: transform 0.35s ease-out;
   }
+
   a:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
   }
 
+  .yes {
+    text-decoration: underline;
+    text-decoration-color: #0087ca;
+  }
+
   .invisible {
     opacity: 0;
   }
+
   .links {
     position: absolute;
     top: -700px;
