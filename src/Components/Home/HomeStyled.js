@@ -53,14 +53,15 @@ export const AboutMe = styled.div`
 export const MyPicture = styled.div`
   margin-left: 650px;
   position: absolute;
-  top: 17%;
-  right: 7%;
+  top: 21%;
+  right: 10%;
   img {
     filter: brightness(140%);
-    width: 300px;
-    height: 280px;
+    width: 250px;
+    height: 250px;
     border-radius: 150px;
     box-shadow: 0px 20px 20px 0 rgba(0, 0, 0, 0.5);
+    object-fit: cover;
   }
   @media (max-width: 1118px) {
     top: 5000px;
