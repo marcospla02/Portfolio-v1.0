@@ -44,7 +44,7 @@ export const NavContainer = styled.nav`
     transform-origin: bottom left;
   }
 
-  .yes {
+  .selected {
     text-decoration: underline;
     text-decoration-color: #0087ca;
   }

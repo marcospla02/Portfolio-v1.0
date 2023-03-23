@@ -21,28 +21,28 @@ function NavBar() {
           <a
             href="/"
             onClick={handleClick}
-            className={pathname === "/" && "yes"}
+            className={pathname === "/" && "selected"}
           >
             Home
           </a>
           <a
             href="/About-Me"
             onClick={handleClick}
-            className={pathname === "/About-Me" && "yes"}
+            className={pathname === "/About-Me" && "selected"}
           >
             About Me
           </a>
           <a
             href="/Projects"
             onClick={handleClick}
-            className={pathname === "/Projects" && "yes"}
+            className={pathname === "/Projects" && "selected"}
           >
             Projects
           </a>
           <a
             href="/Contact"
             onClick={handleClick}
-            className={pathname === "/Contact" && "yes"}
+            className={pathname === "/Contact" && "selected"}
           >
             Contact
           </a>
