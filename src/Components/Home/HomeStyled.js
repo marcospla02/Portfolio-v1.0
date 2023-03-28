@@ -92,7 +92,23 @@ export const Icons = styled.div`
 export const Cv = styled.div`
   position: absolute;
   left: 90%;
-  bottom: 10.4%;
+  /* bottom: 10.4%; */
+  animation-name: cv;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+
+  @keyframes cv {
+    0% {
+      bottom: 6.4%;
+    }
+
+    100% {
+      bottom: 10.7%;
+    }
+  }
+
   @media (max-width: 700px) {
     left: 80%;
   }
