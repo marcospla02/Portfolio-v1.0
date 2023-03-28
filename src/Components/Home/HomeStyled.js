@@ -93,7 +93,7 @@ export const Icons = styled.div`
 export const Cv = styled.div`
   position: absolute;
   left: 90%;
-  /* bottom: 10.4%; */
+  bottom: 10.4%;
   animation-name: cv;
   animation-duration: 1s;
   animation-iteration-count: infinite;
@@ -102,11 +102,13 @@ export const Cv = styled.div`
 
   @keyframes cv {
     0% {
-      bottom: 6.4%;
+      /* bottom: 6.4%; */
+      transform: translateY(-10px);
     }
 
     100% {
-      bottom: 10.7%;
+      /* bottom: 10.7%; */
+      transform: translateY(4px);
     }
   }
 
