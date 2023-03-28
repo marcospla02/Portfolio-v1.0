@@ -17,7 +17,7 @@ function CardProject({ title, link, image, description }) {
             <div className="container-p-back">
               <p className="p-back">{description}</p>
             </div>
-            <a href={link}>
+            <a href={link} target="_blank">
               <img src={linkIcon} alt="link to project"></img>
             </a>
           </div>
