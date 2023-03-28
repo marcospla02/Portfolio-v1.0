@@ -17,9 +17,9 @@ function Home() {
           <h3>Full Stack Developer</h3>
         </Title>
         <AboutMe>
-          Hi, I have experience working in NodeJs, React, Redux, SQL,
-          postgresSQL, Sequelize, mongoDb, Mongoose, Css, Html among other
-          technologies.
+          Hi, I have experience working in NodeJs, Javascript, Typescript,
+          React, Redux, SQL, postgresSQL, Sequelize, mongoDb, Mongoose, Css,
+          Html among other technologies.
         </AboutMe>
       </Me>
       <MyPicture>

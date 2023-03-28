@@ -35,6 +35,7 @@ export const AboutMe = styled.div`
   height: 50%;
   margin-top: 19%;
   margin-left: -50%;
+  padding-left: 20px;
   @media (max-width: 1112px) and (min-width: 900px) {
     margin-top: 100px;
   }

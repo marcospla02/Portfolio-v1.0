@@ -9,10 +9,16 @@ export const Button = styled.button`
   text-align: center;
   margin-left: -26%;
   transition: 1s;
-  .disabled {
+  /* .disabled {
     color: green;
-    /* background-color: rgba(19, 1, 1, 0.3); */
+    background-color: rgba(19, 1, 1, 0.3); 
     background-color: blue;
+  } */
+
+  :disabled {
+    transition: 1s;
+    /* background-color: #a00606; */
+    color: #000;
   }
 
   :hover {
