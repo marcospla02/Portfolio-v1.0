@@ -44,7 +44,8 @@ const PorjectsInfo = [
     title: "Joma.pallets",
     link: "https://www.instagram.com/joma.pallets/",
     image: coding,
-    description: "Project freelance for a e-commerce. Instagram: @joma.pallets",
+    description:
+      "Project freelance for a e-commerce (in progress). Instagram: @joma.pallets",
   },
 ];
 
