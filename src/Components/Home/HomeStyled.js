@@ -102,12 +102,10 @@ export const Cv = styled.div`
 
   @keyframes cv {
     0% {
-      /* bottom: 6.4%; */
       transform: translateY(-10px);
     }
 
     100% {
-      /* bottom: 10.7%; */
       transform: translateY(4px);
     }
   }

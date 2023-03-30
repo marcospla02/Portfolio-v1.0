@@ -2,6 +2,7 @@ import portada from "../../assests/img/laptop-portada.png";
 import tigerPicture from "../../assests/img/tigerPicture.jpg";
 import videogameApp from "../../assests/img/videogameApp.jpg";
 import plaremove from "../../assests/img/plaremove.png";
+import coding from "../../assests/img/codeando.jpeg";
 
 const PorjectsInfo = [
   {
@@ -37,6 +38,13 @@ const PorjectsInfo = [
     image: videogameApp,
     description:
       "It`s my first app that I created in the stage of individual project in Henry. the technologies that I use is: React, redux,nodejs, javascript, express, postrgreSql and sequelize",
+  },
+  {
+    id: 5,
+    title: "Joma.pallets",
+    link: "https://www.instagram.com/joma.pallets/",
+    image: coding,
+    description: "Project freelance for a e-commerce. Instagram: @joma.pallets",
   },
 ];
 
