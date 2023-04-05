@@ -2,7 +2,7 @@ import portada from "../../assests/img/laptop-portada.png";
 import tigerPicture from "../../assests/img/tigerPicture.jpg";
 import videogameApp from "../../assests/img/videogameApp.jpg";
 import plaremove from "../../assests/img/plaremove.png";
-import coding from "../../assests/img/codeando.jpeg";
+import joma from "../../assests/img/joma-pallets.png";
 
 const PorjectsInfo = [
   {
@@ -43,7 +43,7 @@ const PorjectsInfo = [
     id: 5,
     title: "Joma.pallets",
     link: "https://www.instagram.com/joma.pallets/",
-    image: coding,
+    image: joma,
     description:
       "Project freelance for a e-commerce (in progress). Instagram: @joma.pallets",
   },
