@@ -18,8 +18,8 @@ function Home() {
         </Title>
         <AboutMe>
           Hi, I have experience working in NodeJs, Javascript, Typescript,
-          React, Redux, SQL, postgresSQL, Sequelize, mongoDb, Mongoose, Css,
-          Html among other technologies.
+          React, Redux, React-Native, SQL, postgresSQL, Sequelize, mongoDb,
+          Mongoose, Css, Html among other technologies.
         </AboutMe>
       </Me>
       <MyPicture>

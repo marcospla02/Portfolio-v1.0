@@ -26,7 +26,8 @@ export const Container = styled.div`
 
   /*********************************/
   .flip-card {
-    width: 450px;
+    /* width: 450px; */
+    width: auto;
     /* width: 45px; */
     height: 255px;
     perspective: 2000px;
@@ -71,6 +72,8 @@ export const Container = styled.div`
 
   .p-back {
     padding-left: 5%;
+    margin-top: -5%;
+    width: 100%;
   }
 
   @media (max-width: 640px) {
@@ -82,7 +85,11 @@ export const Container = styled.div`
       justify-content: center;
       align-items: center;
       font-size: small;
-      margin-right: 50%;
+      /* margin-right: 50%; */
+    }
+    .p-back {
+      margin-left: 25px;
+      height: 150px;
     }
   }
 `;
@@ -92,14 +99,15 @@ export const Image = styled.div`
     max-width: 450px;
     /*     max-width: 450px;
     margin-left: 5px;
-    height: 200px; */
+     */
+    height: 200px;
   }
   @media screen and (max-width: 640px) and (min-width: 588px) {
     img {
       width: 420px;
       /* width: 100%; */
       height: 100%;
-      margin-left: 2%;
+      /* margin-left: 2%; */
     }
   }
   @media screen and (max-width: 588px) and (min-width: 500px) {
@@ -111,14 +119,14 @@ export const Image = styled.div`
   }
   @media screen and (max-width: 500px) and (min-width: 386px) {
     img {
-      margin-left: -31%;
+      /* margin-left: -31%; */
       width: 250px;
       height: 180px;
     }
   }
   @media screen and (max-width: 386px) and (min-width: 250px) {
     img {
-      margin-left: -50%;
+      /* margin-left: -50%; */
       width: 200px;
       height: 180px;
     }
@@ -127,7 +135,12 @@ export const Image = styled.div`
   @media (min-width: 300px) and (max-width: 386px) {
     img {
       width: 230px;
-      margin-right: -10%;
+      /* margin-right: -10%; */
     }
   }
+`;
+
+export const Video = styled.video`
+  height: 200px;
+  width: max-content;
 `;

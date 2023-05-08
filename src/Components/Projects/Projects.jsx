@@ -16,8 +16,9 @@ function Projects() {
               id={project.id}
               title={project.title}
               link={project.link}
-              image={project.image}
+              image={project.image ? project.image : ""}
               description={project.description}
+              video={project.video ? project.video : ""}
             />
           );
         })}

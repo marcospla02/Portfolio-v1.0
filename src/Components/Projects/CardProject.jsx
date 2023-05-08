@@ -1,17 +1,24 @@
 import React from "react";
-import { Container, Image } from "./CssCard";
+import { Container, Image, Video } from "./CssCard";
 import linkIcon from "../../assests/img/enlazar.png";
 
-function CardProject({ title, link, image, description }) {
+function CardProject({ title, link, image, description, video }) {
+  console.log("video:", video);
   return (
     <Container>
       <div className="flip-card">
         <div className="flip-card-inner">
           <div className="flip-card-front">
             <p>{title}</p>
-            <Image>
-              <img src={image} alt="image photo"></img>
-            </Image>
+            {video ? (
+              <Video loop autoPlay muted>
+                <source src={video} type="video/mp4" />
+              </Video>
+            ) : (
+              <Image>
+                <img src={image} alt="image photo"></img>
+              </Image>
+            )}
           </div>
           <div className="flip-card-back">
             <div className="container-p-back">
