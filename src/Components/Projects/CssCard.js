@@ -140,7 +140,41 @@ export const Image = styled.div`
   }
 `;
 
-export const Video = styled.video`
-  height: 200px;
-  width: max-content;
+export const Video = styled.div`
+  video {
+    height: 200px;
+    max-width: 450px;
+  }
+
+  @media screen and (max-width: 640px) and (min-width: 588px) {
+    video {
+      width: 420px;
+      height: 100%;
+    }
+  }
+  @media screen and (max-width: 588px) and (min-width: 500px) {
+    video {
+      margin-left: -12%;
+      width: 350px;
+      height: 180px;
+    }
+  }
+  @media screen and (max-width: 500px) and (min-width: 386px) {
+    video {
+      width: 250px;
+      height: 180px;
+    }
+  }
+  @media screen and (max-width: 386px) and (min-width: 250px) {
+    video {
+      width: 200px;
+      height: 180px;
+    }
+  }
+
+  @media (min-width: 300px) and (max-width: 386px) {
+    video {
+      width: 230px;
+    }
+  }
 `;

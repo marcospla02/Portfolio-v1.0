@@ -4,7 +4,7 @@ import videogameApp from "../../assests/img/videogameApp.jpg";
 import plaremove from "../../assests/img/plaremove.png";
 import joma from "../../assests/img/joma-pallets.png";
 import alphagroup from "../../assests/img/screenshot-alphagroup.jpg";
-import video from "../../assests/img/video.mp4";
+import video from "../../assests/img/Alphagroup-editado.mp4";
 
 const PorjectsInfo = [
   {
@@ -49,15 +49,15 @@ const PorjectsInfo = [
     description:
       "Project freelance for a e-commerce (in progress). Instagram: @joma.pallets",
   },
-  // {
-  //   id: 6,
-  //   title: "Alphagroup Express",
-  //   link: "https://alphagroupexpress.cl/",
-  //   // image: alphagroup,
-  //   video: video,
-  //   description:
-  //     "Project freelance. I create a app mobile to scanner the code qr and look for the same if didn´t scanner. Private project for the company ",
-  // },
+  {
+    id: 6,
+    title: "Alphagroup Express",
+    link: "https://alphagroupexpress.cl/",
+    // image: alphagroup,
+    video: video,
+    description:
+      "Project freelance. I create a app mobile to scanner the code qr and look for the same if didn´t scanner. Private project for the company ",
+  },
 ];
 
 export default PorjectsInfo;

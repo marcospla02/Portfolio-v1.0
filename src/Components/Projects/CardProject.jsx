@@ -11,8 +11,10 @@ function CardProject({ title, link, image, description, video }) {
           <div className="flip-card-front">
             <p>{title}</p>
             {video ? (
-              <Video loop autoPlay muted>
-                <source src={video} type="video/mp4" />
+              <Video>
+                <video loop autoPlay muted>
+                  <source src={video} type="video/mp4" />
+                </video>
               </Video>
             ) : (
               <Image>
