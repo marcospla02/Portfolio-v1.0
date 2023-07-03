@@ -13,7 +13,7 @@ function Home() {
       <Nav />
       <Me>
         <Title>
-          <h2>Marcos Pla Señorans</h2>
+          <h2>Marcos Maria Pla Señorans</h2>
           <h3>Full Stack Developer</h3>
         </Title>
         <AboutMe>
