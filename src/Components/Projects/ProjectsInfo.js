@@ -47,7 +47,7 @@ const PorjectsInfo = [
     link: "https://www.instagram.com/joma.pallets/",
     image: joma,
     description:
-      "Project freelance for a e-commerce (in progress). Instagram: @joma.pallets",
+      "Project freelance for a e-commerce (in progress, It had to be stopped for the time being). Instagram: @joma.pallets",
   },
   {
     id: 6,
