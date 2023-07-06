@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "../Nav/Nav";
 import { Me, AboutMe, Title, MyPicture, Icons, Cv } from "./HomeStyled";
 import Picture from "../../assests/img/sinfondo-remove.png";
-import cvEnglish from "../../assests/Resume-Marcos-Pla-Señorans.pdf";
+import cvEnglish from "../../assests/Cv-Marcos-Pla-Señorans.pdf";
 import imgCv from "../../assests/img/cv.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
