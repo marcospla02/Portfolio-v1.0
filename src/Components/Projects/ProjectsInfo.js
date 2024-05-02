@@ -3,7 +3,6 @@ import tigerPicture from "../../assests/img/tigerPicture.jpg";
 import videogameApp from "../../assests/img/videogameApp.jpg";
 import plaremove from "../../assests/img/plaremove.png";
 import joma from "../../assests/img/joma-pallets.png";
-import alphagroup from "../../assests/img/screenshot-alphagroup.jpg";
 import video from "../../assests/img/Alphagroup-editado.mp4";
 
 const PorjectsInfo = [

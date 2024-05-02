@@ -36,7 +36,13 @@ export const AboutMe = styled.div`
   margin-top: 19%;
   margin-left: -50%;
   padding-left: 20px;
-  @media (max-width: 1112px) and (min-width: 900px) {
+  
+  @media (max-width: 1269px) and (min-width: 1115px) {
+    margin-top: 15%;
+    margin-left: 0%;
+   
+  }
+  @media (max-width: 1114px) and (min-width: 900px) {
     margin-top: 100px;
   }
   @media (max-width: 768px) {
@@ -57,7 +63,6 @@ export const MyPicture = styled.div`
   top: 21%;
   right: 10%;
   img {
-    filter: brightness(140%);
     width: 250px;
     height: 250px;
     border-radius: 150px;
