@@ -1,7 +1,8 @@
 import React from "react";
 import Nav from "../Nav/Nav";
 import { Me, AboutMe, Title, MyPicture, Icons, Cv } from "./HomeStyled";
-import Picture from "../../assests/img/sinfondo-remove.png";
+// import Picture from "../../assests/img/sinfondo-remove.png";
+import Picture from "../../assests/img/Foto.png";
 import cvEnglish from "../../assests/Marcos-Maria-Pla-Señorans-Cv.pdf";
 import imgCv from "../../assests/img/cv.png";
 import AOS from "aos";
