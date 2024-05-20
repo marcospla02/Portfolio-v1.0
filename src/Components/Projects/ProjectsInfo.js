@@ -4,6 +4,7 @@ import videogameApp from "../../assests/img/videogameApp.jpg";
 import plaremove from "../../assests/img/plaremove.png";
 import joma from "../../assests/img/joma-pallets.png";
 import video from "../../assests/img/Alphagroup-editado.mp4";
+import landing from '../../assests/img/landing-page.png'
 
 const PorjectsInfo = [
   {
@@ -21,7 +22,7 @@ const PorjectsInfo = [
     image: portada,
     description: `Project realized to practice new technologies and keep growing!
       In the page you can add to favorites (logged in or not) and log in, if you had favorites in your account they will be loaded together with the new ones you added. 
-      You can search the Pokemon by name and soon there will be filtered. 
+      You can search the Pokemon by name and soon there will be filtered.
     `,
   },
   {
@@ -57,6 +58,14 @@ const PorjectsInfo = [
     description:
       "Project freelance. I create a app mobile to scanner the code qr and look for the same if didn´t scanner. Private project for the company ",
   },
+  {
+    id: 7,
+    title: "Challenge",
+    link: "https://github.com/marcospla02/Prueba-tecnica-NEOWYZE",
+    image: landing,
+    description:
+      "Practical Challenge for an interview using Nextjs, Typescript and TalwindCss using swapi.dev API",
+  }
 ];
 
 export default PorjectsInfo;
